@@ -1,0 +1,35 @@
+#container > iframe {
+  width: 100vw;
+  height: 90vh;
+}
+
+.button {
+  min-width: 10rem;
+  min-height: 3rem;
+  background: hsl(120, 50%, 50%);
+  border: none;
+  margin: 0.5rem 1rem;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  font-style: bold;
+  box-shadow: -1px -1px 1px 1px rgba(89, 89, 89, 0.2);
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background: hsl(120, 50%, 60%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+}
+
+.finish {
+  text-align: center;
+  transform: translate(0, 50vh);
+  color: hsl(120, 50%, 50%);
+  font-size: 3rem;
+  font-weight: bold;
+}
